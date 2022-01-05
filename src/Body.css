@@ -1,0 +1,27 @@
+.post-title {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  background-color: white;
+
+  justify-content: center;
+  width: 150vh;
+  margin-left: 45vh;
+  margin-bottom: 10px;
+
+  padding: 5px;
+  border-radius: 10px;
+}
+.body {
+  overflow-y: overlay;
+  object-fit: contain;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  cursor: pointer;
+}
